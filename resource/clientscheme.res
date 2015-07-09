@@ -2668,6 +2668,82 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//GoboldBold Fonts
+		
+		GoboldBold12
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold16
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold24
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold32
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold36
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold42
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		GoboldBold48
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		
+		
+		
 
 	}
 	
@@ -5192,18 +5268,22 @@ Scheme
 				"range" "0x0000 0x0451"
 			}
 		}			
-		"7" "resource/ocra.ttf"
 		"8"
 		{
-			"font" "resource/fonts/Gobold Regular"
+			"font" "resource/fonts/Gobold Regular.ttf"
 			"name" "Gobold"
 		}
 		"9"
 		{
-			"font" "resource/fonts/Gobold High"
+			"font" "resource/fonts/Gobold High.ttf"
 			"name" "Gobold High"
 		}
-	
+		"10"
+		{
+			"font" "resource/fonts/Gobold Bold.ttf"
+			"name" "Gobold Bold"
+		
+		}	
 	
 	}
 }
