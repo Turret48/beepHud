@@ -190,7 +190,10 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-	}
+		
+		//BeepColors
+		"Portal_Orange" 		"253 102 0 255"
+	}	"Portal_Blue"			"0 120 255 255"
 
 	///////////////////// BASE SETTINGS ////////////////////////
 	// default settings for all panels
@@ -2701,6 +2704,16 @@ Scheme
 			}
 		}
 		
+		GoboldBold28
+		{
+			"1"
+			{
+				"name"		"Gobold Bold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		
 		GoboldBold32
 		{
 			"1"
@@ -2740,6 +2753,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		
 		
 		

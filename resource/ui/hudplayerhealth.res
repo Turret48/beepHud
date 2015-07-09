@@ -49,17 +49,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
 		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
 		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
@@ -80,20 +75,35 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"GoboldBold42"
-		"fgcolor"		"90 180 240 255"
-	}								
+		"fgcolor"		"0 120 255 255"
+	}
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"2"
+		"ypos"			"2"	[$WIN32]]
+		"zpos"			"4"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"GoboldBold42"
+		"fgcolor"		"0 0 0 200"
+	}		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
@@ -108,8 +118,8 @@
 		"zpos"			"8"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
