@@ -40,27 +40,6 @@
 		
 	}
 	
-	"ChargeLabelBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelBG"
-		"xpos"			"30"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"GoBoldBold24"
-		"fgcolor_override"	"0 0 0 200"
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -88,22 +67,22 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"38"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"180"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"textAlignment"	"center"
 		"fgcolor_override"	"240 240 240 100"
 		"bgcolor_override"	"170 170 170 40"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}		
-
+	
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -122,6 +101,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+
 
 	"ChargeMeter2"
 	{	
@@ -184,8 +164,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthClusterIcon"
-		"xpos"			"99999"
-		"ypos"			"99999"
+		"xpos"			"2"
+		"ypos"			"17"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
@@ -201,8 +181,8 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
 		"ypos"			"-25"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
